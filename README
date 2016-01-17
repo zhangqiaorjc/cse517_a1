@@ -1,0 +1,53 @@
+CSE 517 Assignment1
+Qiao Zhang (qiao@cs.washington.edu)
+
+1) How does my language model (LM) work?
+My LM uses interpolated and smoothed trigrams. Specifically, I compute the
+conditional probability P(c3|c1c2) by interpolating among unigram, bigram and
+trigram, i.e.
+P(c3|c1c2) = l1*P(c3) + l2*P(c3|c2) + (1-l1-l2)*P(c3|c1c2)
+
+However, for an unseen character c3 in test set, I can still get zero value for
+P(c3|c1c2), so I use additive-k smoothing to handle gaps in ngrams, i.e.
+
+P(c3) = c(c3) + k1 / c() + k1*V
+P(c3|c2) = c(c2c3) + k2 / c(c2) + k2*V
+P(c3|c1c2) = c(c1c2c3) + k3 / c(c1c2) + k3*V
+
+where V is the vocabulary size, 65392 in our case.
+
+I use 10% holdout set to tune l1,l2 and k1,k2,k3.
+
+Now, I can use the chain rule to compute P(c1c2...cN) for any sentence.
+
+2) What dataset did I use?
+
+Since my LM is simple, I need a large amount of data to train it, and very
+importantly cover as many symbols as I can. Since I do not know what the test
+set looks like, the best I can do is to sample a balanced set of texts in
+different languages. Given limited time, I decided to get Wikipedia dump for
+the month of January, for all available languages.
+http://dumps.wikimedia.org/backup-index-bydb.html
+
+For each text, I reserve the first 80% for training, the next 10% for testing
+and the last 10% for holdout. Once I finish tunning and am ready for
+submission, I use all my data to produce a dictionary of unigram, bigram and
+trigram counts, since the real test set is from the TAs.
+
+In each dataset, I also artifically add two start symbols to the beginning of
+text and one end of text symbol at the end.
+
+Finally, my LM, on startup, would load up the python dictionary blob, add two
+start symbols to history. With ngram counts and the various parameters, my LM 
+is ready for use!
+
+3) What tools did I use?
+I used wp2txt tool to convert Wikipedia dump to unicode plain text files.
+https://github.com/yohasebe/wp2txt
+
+4) Any help I got?
+Initially, I wanted to use corpora from NLTK, e.g. Brown, Gutenberg etc.
+Luheng He (luheng@cs) suggested that I look at Wikipedia sources for better
+coverage instead.
+
+

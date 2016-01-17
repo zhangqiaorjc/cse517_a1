@@ -3,11 +3,11 @@ import math
 # end of text symbol
 EOT = u'\u0003'
 
-# start symbol
-START = u'\u0861'
+# START symbol
+START = u'\u0858'
 
 # UNKNOWN symbol
-UNK = u'\u0860'
+UNK = u'\u0859'
 
 # k for additive smoothing
 smooth_k1 = 0.00000001
@@ -27,16 +27,9 @@ def convert_to_UNK(snippet):
 	return converted_snippet
 
 # interpolation parameters
-l21 = 0.01
-l22 = 1 - l21
-
-l31 = 0.001
-l32 = 0.001
+l31 = 0.01
+l32 = 0.01
 l33 = 1.0 - l31 - l32
-
-# l1 = 1.0
-# l2 = 0.0
-# l3 = 0.0
 
 # use log base 2 throughout
 def log(x):

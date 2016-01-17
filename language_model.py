@@ -8,7 +8,7 @@
 # Done - UNKOWN words, valid unicode but not BMP
 # perplexity, tuning framework
 # get all unicode corpus so all unigram is non-zero
-# add two start symbols
+# DONE add two start symbols
 
 from lm_common import *
 import codecs
@@ -23,53 +23,47 @@ def append_to_history_clear_if_stop_symbol(history, c):
 	history.append(c)
 	if len(history) > 3:
 		history.pop(0)
-	if c == u'0003':
+	if c == EOT:
 		# start with two start symbols
 		history = [START, START]
 
 def compute_ngram_logp(n, history, c):
-	global total_unigram_counts
+	global total_unigramCounts
 	global vocab_size
 	global smooth_k1
 	if n == 1:
 		counts_c = 0
-		if c in counts:
-			counts_c = counts[c]
-		return log(counts_c + smooth_k1) - log(total_unigram_counts + smooth_k1 * vocab_size)
-	elif n <= 3:
+		if c in unigramCounts:
+			counts_c = unigramCounts[c]
+		return log(counts_c + smooth_k1) - log(total_unigramCounts + smooth_k1 * vocab_size)
+	elif n == 2:
 		h_str = ''.join(history[-(n-1) : ])
 		hv_str = h_str + c
 		counts_h = 0
 		counts_hv = 0
-		if h_str in counts:
-			counts_h = counts[h_str]
-		if hv_str in counts:
-			counts_hv = counts[hv_str]
-		if n == 2:
-			return log(counts_hv + smooth_k2) - log(counts_h + smooth_k2 * vocab_size)
-		else:
-			return log(counts_hv + smooth_k3) - log(counts_h + smooth_k3 * vocab_size)
+		if h_str in unigramCounts:
+			counts_h = unigramCounts[h_str]
+		if hv_str in bigramCounts:
+			counts_hv = bigramCounts[hv_str]
+		return log(counts_hv + smooth_k2) - log(counts_h + smooth_k2 * vocab_size)
+	elif n == 3:
+		h_str = ''.join(history[-(n-1) : ])
+		hv_str = h_str + c
+		counts_h = 0
+		counts_hv = 0
+		if h_str in bigramCounts:
+			counts_h = bigramCounts[h_str]
+		if hv_str in trigramCounts:
+			counts_hv = trigramCounts[hv_str]
+		return log(counts_hv + smooth_k3) - log(counts_h + smooth_k3 * vocab_size)
 	print 'not supported'
-	exit(1)
+	sys.exit(1)
 
 def compute_cond_logp(history, c):
 	logq1 = compute_ngram_logp(1, history, c)
 	logq2 = compute_ngram_logp(2, history, c)
 	logq3 = compute_ngram_logp(3, history, c)
 
-	# if (len(history) == 0):
-	# 	# print history
-	# 	return logq1
-	# elif (len(history) == 1):
-	# 	# print history
-	# 	logqmax = max(logq1, logq2)
-	# 	assert (logq1 is not None)
-	# 	assert (logq2 is not None)
-	# 	t = l21 * math.pow(2, logq1 - logqmax)
-	# 	t += l22 * math.pow(2, logq2 - logqmax)
-	# 	logp = logqmax + log(t)
-	# 	return logp
-	# else:
 	assert len(history) >= 2
 	# print history
 	logqmax = max(logq1, logq2, logq3)
@@ -108,15 +102,15 @@ def generate_char(history):
 		logsum = compute_logsum([logsum, logp])
 		# print 'logsum = %f' % logsum
 		if logsum > logr:
-			return c
+			return c, logp
 			# pass
 	# 	logps += [(logp, ord_c, c)]
 	# for x in sorted(logps, reverse=True)[0:30]:
 	# 	print x
-	return u'\uffff'
+	return u'\uffff', 0.0
 
 # set random seed
-print 'get seed = ' + sys.argv[1]
+# print 'get seed = ' + sys.argv[1]
 random.seed(int(sys.argv[1]))
 
 # set input, output to utf8
@@ -124,61 +118,66 @@ sys.stdin = codecs.getreader('utf8')(sys.stdin)
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 # load language model
-word_count_filename = 'austen-emma.txt.total_unigram_counts_887074.counts'
-# word_count_filename = 'test.txt.total_unigram_counts_29.counts'
-counts = pickle.load(open(word_count_filename, "rb"))
+unigram_filename = 'simple_train.total_unigram_counts_30.unigram'
+bigram_filename = 'simple_train.total_unigram_counts_30.bigram'
+trigram_filename = 'simple_train.total_unigram_counts_30.trigram'
+
+unigramCounts = pickle.load(open(unigram_filename, "rb"))
+assert len(unigramCounts) > 0
+bigramCounts = pickle.load(open(bigram_filename, "rb"))
+assert len(bigramCounts) > 0
+trigramCounts = pickle.load(open(trigram_filename, "rb"))
+assert len(trigramCounts) > 0
 
 # vocab size
-total_unigram_counts = int(word_count_filename.split('.')[-2].split('_')[-1])
-# print 'total_unigram_counts = ' + str(total_unigram_counts)
-
+total_unigramCounts = int(unigram_filename.split('.')[-2].split('_')[-1])
+# print 'total_unigramCounts = ' + str(total_unigramCounts)
 
 ##################################
 
-# # compute perplexity
-# texts = [\
-# u'abcdefghijklmnopqrstuvwxyz\u0003',\
-# ]
+# compute perplexity
 
-# N_words = 0
+holdout_texts = sys.stdin.read()
+texts = holdout_texts.split(EOT)
+print "%d holdout texts" % len(texts)
 
-# logp_sum = 0
-# for text in texts:
-# 	logp_sum_per_text = 0
-# 	history = []
-# 	for c in text:
-# 		N_words += 1
-# 		logp = compute_cond_logp(history, c)
-# 		logp_sum_per_text += logp
-# 		append_to_history_clear_if_stop_symbol(history, c)
-# 	logp_sum += logp_sum_per_text
-# perplexity = math.pow(2, -1.0 * logp_sum / N_words)
-# print 'perplexity = %f' % perplexity
+M_words = 0
+
+logp_sum = 0
+for text in texts:
+	text += EOT
+	logp_sum_per_text = 0
+	history = [START, START]
+	for c in text:
+		M_words += 1
+		logp = compute_cond_logp(history, c)
+		logp_sum_per_text += logp
+		append_to_history_clear_if_stop_symbol(history, c)
+	logp_sum += logp_sum_per_text
+perplexity = math.pow(2, -1.0 * logp_sum / M_words)
+print 'perplexity = %f' % perplexity
 
 ##################################
 
 # user interaction
-history = [START, START]
-while True:
-	cmd = sys.stdin.read(size=1, chars=1)
-	print cmd, history
-	if cmd == u'o':
-		# observe next char c
-		c = convert_to_UNK(sys.stdin.read(size=1, chars=1))
-		print u'observe char ' + c
-		append_to_history_clear_if_stop_symbol(history, c)
-	elif cmd == u'q':
-		c = convert_to_UNK(sys.stdin.read(size=1, chars=1))
-		print u'print prob for char ' + c
-		logp = compute_cond_logp(history, c)
-		print logp
-	elif cmd == u'g':
-		c = generate_char(history)
-		print u'randomly generate char ' + c
-		append_to_history_clear_if_stop_symbol(history, c)
-	elif cmd == u'x':
-		print u'quit'
-		break
-	else:
-		print u'ERROR in parsing command'
-		exit(1)
+#history = [START, START]
+#while True:
+#	cmd = sys.stdin.read(size=1, chars=1)
+#	# print cmd, history
+#	if cmd == u'o':
+#		c = convert_to_UNK(sys.stdin.read(size=1, chars=1))
+#		print u'// observed a char '
+#		append_to_history_clear_if_stop_symbol(history, c)
+#	elif cmd == u'q':
+#		c = convert_to_UNK(sys.stdin.read(size=1, chars=1))
+#		logp = compute_cond_logp(history, c)
+#		print logp
+#	elif cmd == u'g':
+#		c, logp = generate_char(history)
+#		print c + " //" + str(logp)
+#		append_to_history_clear_if_stop_symbol(history, c)
+#	elif cmd == u'x':
+#		break
+#	else:
+#		print u'ERROR in parsing command'
+#		sys.exit(1)
