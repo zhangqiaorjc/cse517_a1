@@ -104,6 +104,7 @@ def generate_char(history):
 		if logsum > logr:
 			return c, logp
 			# pass
+	# print 'logsum=%f' % logsum
 	# 	logps += [(logp, ord_c, c)]
 	# for x in sorted(logps, reverse=True)[0:30]:
 	# 	print x
@@ -118,9 +119,13 @@ sys.stdin = codecs.getreader('utf8')(sys.stdin)
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 # load language model
-unigram_filename = 'simple_train.total_unigram_counts_30.unigram'
-bigram_filename = 'simple_train.total_unigram_counts_30.bigram'
-trigram_filename = 'simple_train.total_unigram_counts_30.trigram'
+unigram_filename = 'simple_train.total_unigram_counts_106875552.unigram'
+bigram_filename = 'simple_train.total_unigram_counts_106875552.bigram'
+trigram_filename = 'simple_train.total_unigram_counts_106875552.trigram'
+
+unigram_filename = 'all.unigram'
+bigram_filename = 'all.bigram'
+trigram_filename = 'all.trigram'
 
 unigramCounts = pickle.load(open(unigram_filename, "rb"))
 assert len(unigramCounts) > 0
@@ -130,54 +135,60 @@ trigramCounts = pickle.load(open(trigram_filename, "rb"))
 assert len(trigramCounts) > 0
 
 # vocab size
-total_unigramCounts = int(unigram_filename.split('.')[-2].split('_')[-1])
-# print 'total_unigramCounts = ' + str(total_unigramCounts)
+#total_unigramCounts = int(unigram_filename.split('.')[-2].split('_')[-1])
+#print 'total_unigramCounts = ' + str(total_unigramCounts)
+
+total_unigramCounts = 0
+for k in unigramCounts:
+    total_unigramCounts += unigramCounts[k]
+# print 'found count = ' + str(total_unigramCounts)
 
 ##################################
 
 # compute perplexity
+# expect the texts are separated by EOT, otherwise will hang
 
-holdout_texts = sys.stdin.read()
-texts = holdout_texts.split(EOT)
-print "%d holdout texts" % len(texts)
-
-M_words = 0
-
-logp_sum = 0
-for text in texts:
-	text += EOT
-	logp_sum_per_text = 0
-	history = [START, START]
-	for c in text:
-		M_words += 1
-		logp = compute_cond_logp(history, c)
-		logp_sum_per_text += logp
-		append_to_history_clear_if_stop_symbol(history, c)
-	logp_sum += logp_sum_per_text
-perplexity = math.pow(2, -1.0 * logp_sum / M_words)
-print 'perplexity = %f' % perplexity
-
+# holdout_texts = sys.stdin.read()
+# texts = holdout_texts.split(EOT)
+# print "%d holdout texts" % len(texts)
+# 
+# M_words = 0
+# 
+# logp_sum = 0
+# for text in texts:
+# 	text += EOT
+# 	logp_sum_per_text = 0
+# 	history = [START, START]
+# 	for c in text:
+# 		M_words += 1
+# 		logp = compute_cond_logp(history, c)
+# 		logp_sum_per_text += logp
+# 		append_to_history_clear_if_stop_symbol(history, c)
+# 	logp_sum += logp_sum_per_text
+# perplexity = math.pow(2, -1.0 * logp_sum / M_words)
+# print 'perplexity = %f' % perplexity
+# 
 ##################################
 
 # user interaction
-#history = [START, START]
-#while True:
-#	cmd = sys.stdin.read(size=1, chars=1)
-#	# print cmd, history
-#	if cmd == u'o':
-#		c = convert_to_UNK(sys.stdin.read(size=1, chars=1))
-#		print u'// observed a char '
-#		append_to_history_clear_if_stop_symbol(history, c)
-#	elif cmd == u'q':
-#		c = convert_to_UNK(sys.stdin.read(size=1, chars=1))
-#		logp = compute_cond_logp(history, c)
-#		print logp
-#	elif cmd == u'g':
-#		c, logp = generate_char(history)
-#		print c + " //" + str(logp)
-#		append_to_history_clear_if_stop_symbol(history, c)
-#	elif cmd == u'x':
-#		break
-#	else:
-#		print u'ERROR in parsing command'
-#		sys.exit(1)
+history = [START, START]
+while True:
+	cmd = sys.stdin.read(size=1, chars=1)
+	# print cmd, history
+	if cmd == u'o':
+		c = convert_to_UNK(sys.stdin.read(size=1, chars=1))
+		print u'// observed a char '
+		append_to_history_clear_if_stop_symbol(history, c)
+	elif cmd == u'q':
+		c = convert_to_UNK(sys.stdin.read(size=1, chars=1))
+		logp = compute_cond_logp(history, c)
+		print logp
+	elif cmd == u'g':
+		c, logp = generate_char(history)
+		print c + "//" + str(logp)
+		append_to_history_clear_if_stop_symbol(history, c)
+	elif cmd == u'x':
+		break
+	else:
+		print u'ERROR in parsing command'
+		sys.exit(1)

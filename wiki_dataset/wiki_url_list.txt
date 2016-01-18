@@ -1,251 +1,251 @@
-http://dumps.wikimedia.org/aawiki/20160111/aawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/abwiki/20160111/abwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/acewiki/20160111/acewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/advisorywiki/20160111/advisorywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/afwiki/20160111/afwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/akwiki/20160111/akwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/alswiki/20160111/alswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/amwiki/20160111/amwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/angwiki/20160111/angwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/arcwiki/20160111/arcwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/arzwiki/20160111/arzwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/astwiki/20160111/astwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/aswiki/20160111/aswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/avwiki/20160111/avwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/aywiki/20160111/aywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/azbwiki/20160111/azbwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/azwiki/20160111/azwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/barwiki/20160111/barwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bat_smgwiki/20160111/bat_smgwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bawiki/20160111/bawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bclwiki/20160111/bclwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/be_x_oldwiki/20160111/be_x_oldwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bewiki/20160111/bewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bgwiki/20160111/bgwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bhwiki/20160111/bhwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/biwiki/20160111/biwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bjnwiki/20160111/bjnwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bmwiki/20160111/bmwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bnwiki/20160111/bnwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bowiki/20160111/bowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bpywiki/20160111/bpywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/brwiki/20160111/brwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bswiki/20160111/bswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bswi2016-01-1/20160111/bswi2016-01-1-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/bxrwiki/20160111/bxrwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/cdowiki/20160111/cdowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/cewiki/20160111/cewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/chowiki/20160111/chowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/chrwiki/20160111/chrwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/chwiki/20160111/chwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/chywiki/20160111/chywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ckbwiki/20160111/ckbwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/cowiki/20160111/cowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/crhwiki/20160111/crhwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/crwiki/20160111/crwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/cvwiki/20160111/cvwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/cywiki/20160111/cywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/diqwiki/20160111/diqwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/donatewiki/20160111/donatewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/dsbwiki/20160111/dsbwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/dvwiki/20160111/dvwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/dzwiki/20160111/dzwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/eewiki/20160111/eewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/elwiki/20160111/elwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/emlwiki/20160111/emlwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/eowiki/20160111/eowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/etwiki/20160111/etwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/euwiki/20160111/euwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/extwiki/20160111/extwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ffwiki/20160111/ffwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/fiu_vrowiki/20160111/fiu_vrowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/fjwiki/20160111/fjwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/foundationwiki/20160111/foundationwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/fowiki/20160111/fowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/frpwiki/20160111/frpwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/frrwiki/20160111/frrwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/furwiki/20160111/furwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/fywiki/20160111/fywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/gagwiki/20160111/gagwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ganwiki/20160111/ganwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/gawiki/20160111/gawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/gdwiki/20160111/gdwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/glkwiki/20160111/glkwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/glwiki/20160111/glwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/gnwiki/20160111/gnwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/gomwiki/20160111/gomwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/gotwiki/20160111/gotwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/guwiki/20160111/guwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/gvwiki/20160111/gvwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/hakwiki/20160111/hakwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/hawiki/20160111/hawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/hawwiki/20160111/hawwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/hifwiki/20160111/hifwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/hiwiki/20160111/hiwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/howiki/20160111/howiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/hrwiki/20160111/hrwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/hrwiktionary/20160111/hrwiktionary-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/hywiki/20160111/hywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/idwiki/20160111/idwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/idwikiquote/20160111/idwikiquote-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/igwiki/20160111/igwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/iiwiki/20160111/iiwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ikwiki/20160111/ikwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ilowiki/20160111/ilowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/incubatorwiki/20160111/incubatorwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/iowiki/20160111/iowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/iswiki/20160111/iswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/iuwiki/20160111/iuwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/jbowiki/20160111/jbowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/jvwiki/20160111/jvwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kaawiki/20160111/kaawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kabwiki/20160111/kabwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kawiki/20160111/kawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kbdwiki/20160111/kbdwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kgwiki/20160111/kgwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kiwiki/20160111/kiwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/klwiki/20160111/klwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kmwiki/20160111/kmwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/knwiki/20160111/knwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/koiwiki/20160111/koiwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/krcwiki/20160111/krcwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/krwiki/20160111/krwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kshwiki/20160111/kshwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kswiki/20160111/kswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kuwiki/20160111/kuwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/kywiki/20160111/kywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ladwiki/20160111/ladwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/lawiki/20160111/lawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/lbewiki/20160111/lbewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/lbwiki/20160111/lbwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/Dum/20160111/Dum-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/liwiki/20160111/liwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/lmowiki/20160111/lmowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/lnwiki/20160111/lnwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/loginwiki/20160111/loginwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/Dum/20160111/Dum-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ltwiki/20160111/ltwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/lvwiki/20160111/lvwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/maiwiki/20160111/maiwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/map_bmswiki/20160111/map_bmswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mdfwiki/20160111/mdfwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mediawikiwiki/20160111/mediawikiwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mgwiki/20160111/mgwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mhrwiki/20160111/mhrwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mhwiki/20160111/mhwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/minwiki/20160111/minwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/miwiki/20160111/miwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mkwiki/20160111/mkwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mlwiki/20160111/mlwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mowiki/20160111/mowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mrjwiki/20160111/mrjwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mrwiki/20160111/mrwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mswiki/20160111/mswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mtwiki/20160111/mtwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/muswiki/20160111/muswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mwlwiki/20160111/mwlwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/myvwiki/20160111/myvwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mywiki/20160111/mywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/mznwiki/20160111/mznwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/nahwiki/20160111/nahwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/napwiki/20160111/napwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/nawiki/20160111/nawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/nds_nlwiki/20160111/nds_nlwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ndswiki/20160111/ndswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/newiki/20160111/newiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/newwiki/20160111/newwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ngwiki/20160111/ngwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/nnwiki/20160111/nnwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/nostalgia2016-01-1/20160111/nostalgia2016-01-1-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/nrmwiki/20160111/nrmwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/nvwiki/20160111/nvwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/nywiki/20160111/nywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ocwiki/20160111/ocwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/omwiki/20160111/omwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/orwiki/20160111/orwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/oswiki/20160111/oswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/outreachwiki/20160111/outreachwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pagwiki/20160111/pagwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pamwiki/20160111/pamwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/papwiki/20160111/papwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pawiki/20160111/pawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pcdwiki/20160111/pcdwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pdcwiki/20160111/pdcwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pflwiki/20160111/pflwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pihwiki/20160111/pihwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/piwiki/20160111/piwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pmswiki/20160111/pmswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pnbwiki/20160111/pnbwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pntwiki/20160111/pntwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/pswiki/20160111/pswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/qualitywiki/20160111/qualitywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/rmwiki/20160111/rmwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/rmywiki/20160111/rmywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/rnwiki/20160111/rnwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/roa_rupwiki/20160111/roa_rupwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/roa_tarawiki/20160111/roa_tarawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ruewiki/20160111/ruewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/rwwiki/20160111/rwwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/sahwiki/20160111/sahwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/sawiki/20160111/sawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/scnwiki/20160111/scnwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/scowiki/20160111/scowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/scwiki/20160111/scwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/sdwiki/20160111/sdwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/sewiki/20160111/sewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/sgwiki/20160111/sgwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/simplewiki/20160111/simplewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/skwiki/20160111/skwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/smwiki/20160111/smwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/snwiki/20160111/snwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/sourceswiki/20160111/sourceswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/sowiki/20160111/sowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/specieswiki/20160111/specieswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/sqwiki/20160111/sqwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/srnwiki/20160111/srnwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/sswiki/20160111/sswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/stqwiki/20160111/stqwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/strategywiki/20160111/strategywiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/stwiki/20160111/stwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/suwiki/20160111/suwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/szlwiki/20160111/szlwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tawiki/20160111/tawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tenwiki/20160111/tenwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/test2wiki/20160111/test2wiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/testwiki/20160111/testwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/testwikidatawiki/20160111/testwikidatawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tetwiki/20160111/tetwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tewiki/20160111/tewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/thwiki/20160111/thwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tiwiki/20160111/tiwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tkwiki/20160111/tkwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tlwiki/20160111/tlwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tnwiki/20160111/tnwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/towiki/20160111/towiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tpiwiki/20160111/tpiwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tswiki/20160111/tswiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/ttwiki/20160111/ttwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/tumwiki/20160111/tumwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/twwiki/20160111/twwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/vecwiki/20160111/vecwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/vepwiki/20160111/vepwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/vewiki/20160111/vewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/warwiki/20160111/warwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/wawiki/20160111/wawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/wikimania2005wiki/20160111/wikimania2005wiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/wikimania2006wiki/20160111/wikimania2006wiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/wikimania2007wiki/20160111/wikimania2007wiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/wikimania2008wiki/20160111/wikimania2008wiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/wowiki/20160111/wowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/wuuwiki/20160111/wuuwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/xalwiki/20160111/xalwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/xhwiki/20160111/xhwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/xmfwiki/20160111/xmfwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/yiwiki/20160111/yiwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/yowiki/20160111/yowiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/zawiki/20160111/zawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/zeawiki/20160111/zeawiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/zh_classicalwiki/20160111/zh_classicalwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/zh_min_nanwiki/20160111/zh_min_nanwiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/zh_yuewiki/20160111/zh_yuewiki-20160111-pages-articles-multistream.xml.bz2
-http://dumps.wikimedia.org/zuwiki/20160111/zuwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/aawiki/20160111/aawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/abwiki/20160111/abwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/acewiki/20160111/acewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/advisorywiki/20160111/advisorywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/afwiki/20160111/afwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/akwiki/20160111/akwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/alswiki/20160111/alswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/amwiki/20160111/amwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/angwiki/20160111/angwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/arcwiki/20160111/arcwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/arzwiki/20160111/arzwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/astwiki/20160111/astwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/aswiki/20160111/aswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/avwiki/20160111/avwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/aywiki/20160111/aywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/azbwiki/20160111/azbwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/azwiki/20160111/azwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/barwiki/20160111/barwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bat_smgwiki/20160111/bat_smgwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bawiki/20160111/bawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bclwiki/20160111/bclwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/be_x_oldwiki/20160111/be_x_oldwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bewiki/20160111/bewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bgwiki/20160111/bgwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bhwiki/20160111/bhwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/biwiki/20160111/biwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bjnwiki/20160111/bjnwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bmwiki/20160111/bmwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bnwiki/20160111/bnwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bowiki/20160111/bowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bpywiki/20160111/bpywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/brwiki/20160111/brwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bswiki/20160111/bswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bswi2016-01-1/20160111/bswi2016-01-1-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/bxrwiki/20160111/bxrwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/cdowiki/20160111/cdowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/cewiki/20160111/cewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/chowiki/20160111/chowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/chrwiki/20160111/chrwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/chwiki/20160111/chwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/chywiki/20160111/chywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ckbwiki/20160111/ckbwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/cowiki/20160111/cowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/crhwiki/20160111/crhwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/crwiki/20160111/crwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/cvwiki/20160111/cvwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/cywiki/20160111/cywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/diqwiki/20160111/diqwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/donatewiki/20160111/donatewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/dsbwiki/20160111/dsbwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/dvwiki/20160111/dvwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/dzwiki/20160111/dzwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/eewiki/20160111/eewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/elwiki/20160111/elwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/emlwiki/20160111/emlwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/eowiki/20160111/eowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/etwiki/20160111/etwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/euwiki/20160111/euwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/extwiki/20160111/extwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ffwiki/20160111/ffwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/fiu_vrowiki/20160111/fiu_vrowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/fjwiki/20160111/fjwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/foundationwiki/20160111/foundationwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/fowiki/20160111/fowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/frpwiki/20160111/frpwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/frrwiki/20160111/frrwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/furwiki/20160111/furwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/fywiki/20160111/fywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/gagwiki/20160111/gagwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ganwiki/20160111/ganwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/gawiki/20160111/gawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/gdwiki/20160111/gdwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/glkwiki/20160111/glkwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/glwiki/20160111/glwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/gnwiki/20160111/gnwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/gomwiki/20160111/gomwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/gotwiki/20160111/gotwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/guwiki/20160111/guwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/gvwiki/20160111/gvwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/hakwiki/20160111/hakwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/hawiki/20160111/hawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/hawwiki/20160111/hawwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/hifwiki/20160111/hifwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/hiwiki/20160111/hiwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/howiki/20160111/howiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/hrwiki/20160111/hrwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/hrwiktionary/20160111/hrwiktionary-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/hywiki/20160111/hywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/idwiki/20160111/idwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/idwikiquote/20160111/idwikiquote-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/igwiki/20160111/igwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/iiwiki/20160111/iiwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ikwiki/20160111/ikwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ilowiki/20160111/ilowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/incubatorwiki/20160111/incubatorwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/iowiki/20160111/iowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/iswiki/20160111/iswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/iuwiki/20160111/iuwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/jbowiki/20160111/jbowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/jvwiki/20160111/jvwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kaawiki/20160111/kaawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kabwiki/20160111/kabwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kawiki/20160111/kawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kbdwiki/20160111/kbdwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kgwiki/20160111/kgwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kiwiki/20160111/kiwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/klwiki/20160111/klwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kmwiki/20160111/kmwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/knwiki/20160111/knwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/koiwiki/20160111/koiwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/krcwiki/20160111/krcwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/krwiki/20160111/krwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kshwiki/20160111/kshwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kswiki/20160111/kswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kuwiki/20160111/kuwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/kywiki/20160111/kywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ladwiki/20160111/ladwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/lawiki/20160111/lawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/lbewiki/20160111/lbewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/lbwiki/20160111/lbwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/Dum/20160111/Dum-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/liwiki/20160111/liwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/lmowiki/20160111/lmowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/lnwiki/20160111/lnwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/loginwiki/20160111/loginwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/Dum/20160111/Dum-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ltwiki/20160111/ltwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/lvwiki/20160111/lvwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/maiwiki/20160111/maiwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/map_bmswiki/20160111/map_bmswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mdfwiki/20160111/mdfwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mediawikiwiki/20160111/mediawikiwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mgwiki/20160111/mgwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mhrwiki/20160111/mhrwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mhwiki/20160111/mhwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/minwiki/20160111/minwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/miwiki/20160111/miwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mkwiki/20160111/mkwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mlwiki/20160111/mlwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mowiki/20160111/mowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mrjwiki/20160111/mrjwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mrwiki/20160111/mrwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mswiki/20160111/mswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mtwiki/20160111/mtwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/muswiki/20160111/muswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mwlwiki/20160111/mwlwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/myvwiki/20160111/myvwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mywiki/20160111/mywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/mznwiki/20160111/mznwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/nahwiki/20160111/nahwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/napwiki/20160111/napwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/nawiki/20160111/nawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/nds_nlwiki/20160111/nds_nlwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ndswiki/20160111/ndswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/newiki/20160111/newiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/newwiki/20160111/newwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ngwiki/20160111/ngwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/nnwiki/20160111/nnwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/nostalgia2016-01-1/20160111/nostalgia2016-01-1-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/nrmwiki/20160111/nrmwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/nvwiki/20160111/nvwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/nywiki/20160111/nywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ocwiki/20160111/ocwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/omwiki/20160111/omwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/orwiki/20160111/orwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/oswiki/20160111/oswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/outreachwiki/20160111/outreachwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pagwiki/20160111/pagwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pamwiki/20160111/pamwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/papwiki/20160111/papwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pawiki/20160111/pawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pcdwiki/20160111/pcdwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pdcwiki/20160111/pdcwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pflwiki/20160111/pflwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pihwiki/20160111/pihwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/piwiki/20160111/piwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pmswiki/20160111/pmswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pnbwiki/20160111/pnbwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pntwiki/20160111/pntwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/pswiki/20160111/pswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/qualitywiki/20160111/qualitywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/rmwiki/20160111/rmwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/rmywiki/20160111/rmywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/rnwiki/20160111/rnwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/roa_rupwiki/20160111/roa_rupwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/roa_tarawiki/20160111/roa_tarawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ruewiki/20160111/ruewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/rwwiki/20160111/rwwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/sahwiki/20160111/sahwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/sawiki/20160111/sawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/scnwiki/20160111/scnwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/scowiki/20160111/scowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/scwiki/20160111/scwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/sdwiki/20160111/sdwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/sewiki/20160111/sewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/sgwiki/20160111/sgwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/simplewiki/20160111/simplewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/skwiki/20160111/skwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/smwiki/20160111/smwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/snwiki/20160111/snwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/sourceswiki/20160111/sourceswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/sowiki/20160111/sowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/specieswiki/20160111/specieswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/sqwiki/20160111/sqwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/srnwiki/20160111/srnwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/sswiki/20160111/sswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/stqwiki/20160111/stqwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/strategywiki/20160111/strategywiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/stwiki/20160111/stwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/suwiki/20160111/suwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/szlwiki/20160111/szlwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tawiki/20160111/tawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tenwiki/20160111/tenwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/test2wiki/20160111/test2wiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/testwiki/20160111/testwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/testwikidatawiki/20160111/testwikidatawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tetwiki/20160111/tetwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tewiki/20160111/tewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/thwiki/20160111/thwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tiwiki/20160111/tiwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tkwiki/20160111/tkwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tlwiki/20160111/tlwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tnwiki/20160111/tnwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/towiki/20160111/towiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tpiwiki/20160111/tpiwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tswiki/20160111/tswiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/ttwiki/20160111/ttwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/tumwiki/20160111/tumwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/twwiki/20160111/twwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/vecwiki/20160111/vecwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/vepwiki/20160111/vepwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/vewiki/20160111/vewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/warwiki/20160111/warwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/wawiki/20160111/wawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/wikimania2005wiki/20160111/wikimania2005wiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/wikimania2006wiki/20160111/wikimania2006wiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/wikimania2007wiki/20160111/wikimania2007wiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/wikimania2008wiki/20160111/wikimania2008wiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/wowiki/20160111/wowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/wuuwiki/20160111/wuuwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/xalwiki/20160111/xalwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/xhwiki/20160111/xhwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/xmfwiki/20160111/xmfwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/yiwiki/20160111/yiwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/yowiki/20160111/yowiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/zawiki/20160111/zawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/zeawiki/20160111/zeawiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/zh_classicalwiki/20160111/zh_classicalwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/zh_min_nanwiki/20160111/zh_min_nanwiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/zh_yuewiki/20160111/zh_yuewiki-20160111-pages-articles-multistream.xml.bz2
+wget http://dumps.wikimedia.org/zuwiki/20160111/zuwiki-20160111-pages-articles-multistream.xml.bz2

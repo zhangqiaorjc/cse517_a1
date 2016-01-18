@@ -50,4 +50,5 @@ Initially, I wanted to use corpora from NLTK, e.g. Brown, Gutenberg etc.
 Luheng He (luheng@cs) suggested that I look at Wikipedia sources for better
 coverage instead.
 
-
+NOTE: The language model takes about 2 minutes to load. And the processing
+takes a few minutes. Please wait patiently. It does work!

@@ -1,9 +1,28 @@
 from lm_common import *
 import codecs
 import sys
+
+import os.path
 import cPickle as pickle
 
-reader = codecs.getreader('utf8')(sys.stdin)
+#reader = codecs.getreader('utf8')(sys.stdin)
+
+filename = sys.argv[1]
+outdir = sys.argv[2]
+
+unigramName = os.path.join(outdir, filename + '.unigram')
+bigramName = os.path.join(outdir, filename + '.bigram')
+trigramName = os.path.join(outdir, filename + '.trigram')
+
+print unigramName
+print bigramName
+print trigramName
+if os.path.exists(unigramName) and os.path.exists(bigramName) and os.path.exists(trigramName):
+    print "word count done already"
+    sys.exit(0)
+
+f = open(filename, 'rb')
+reader = codecs.getreader('utf8')(f)
 
 unigramCounts = {}
 bigramCounts = {}
@@ -31,45 +50,43 @@ def update_counts(snippet):
 			    trigramCounts[ngram] = 0
 		    trigramCounts[ngram] += 1
 		else:
-		    print 'i = %d' %d
+		    print ngram
+		    print 'i = %d' % i
 		    sys.exit(1)
-
-snippet = u''
-idx = 0
 
 # use trigram
 buf = START + START
-total_unigram_counts = 2
-
+#total_unigram_counts = 2
+terminate = False
 while True:
-	buf = buf[idx:] 
 	new_text = reader.read()
 	if len(new_text) == 0:
-		# end of input
-		break
-	total_unigram_counts += len(new_text)
+		# append end of text character
+		new_text = EOT
+		terminate = True
+	#total_unigram_counts += len(new_text)
 	buf = buf + new_text
 	idx = 0
 	while idx + 3 < len(buf):
 		snippet = buf[idx: idx + 3]
 		update_counts(snippet)
 		idx += 1
+	buf = buf[idx:] 
+	if terminate:
+	    # end of input
+	    break
 
-# append end of text character
-#buf = buf + EOT
+# buf = buf + EOT
 #total_unigram_counts += 1
 for i in xrange(len(buf)):
 	update_counts(buf[i:])
 
-unigramName = sys.argv[1] + '.total_unigram_counts_' + str(total_unigram_counts) + '.unigram'
 print "save to " + unigramName
 pickle.dump(unigramCounts, open(unigramName, "wb"))
 
-bigramName = sys.argv[1] + '.total_unigram_counts_' + str(total_unigram_counts) + '.bigram'
 print "save to " + bigramName
 pickle.dump(bigramCounts, open(bigramName, "wb"))
 
-trigramName = sys.argv[1] + '.total_unigram_counts_' + str(total_unigram_counts) + '.trigram'
 print "save to " + trigramName
 pickle.dump(trigramCounts, open(trigramName, "wb"))
 

@@ -10,9 +10,9 @@ START = u'\u0858'
 UNK = u'\u0859'
 
 # k for additive smoothing
-smooth_k1 = 0.00000001
-smooth_k2 = 0.00000001
-smooth_k3 = 0.00000001
+smooth_k1 = 0.0000001
+smooth_k2 = 0.0000001
+smooth_k3 = 0.0000001
 vocab_size = 65392
 
 def convert_to_UNK(snippet):
@@ -27,7 +27,7 @@ def convert_to_UNK(snippet):
 	return converted_snippet
 
 # interpolation parameters
-l31 = 0.01
+l31 = 0.001
 l32 = 0.01
 l33 = 1.0 - l31 - l32
 
