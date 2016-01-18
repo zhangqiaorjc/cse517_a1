@@ -119,10 +119,6 @@ sys.stdin = codecs.getreader('utf8')(sys.stdin)
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 # load language model
-unigram_filename = 'simple_train.total_unigram_counts_106875552.unigram'
-bigram_filename = 'simple_train.total_unigram_counts_106875552.bigram'
-trigram_filename = 'simple_train.total_unigram_counts_106875552.trigram'
-
 unigram_filename = 'all.unigram'
 bigram_filename = 'all.bigram'
 trigram_filename = 'all.trigram'
