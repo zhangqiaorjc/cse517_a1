@@ -144,26 +144,26 @@ for k in unigramCounts:
 # compute perplexity
 # expect the texts are separated by EOT, otherwise will hang
 
-# holdout_texts = sys.stdin.read()
-# texts = holdout_texts.split(EOT)
-# print "%d holdout texts" % len(texts)
-# 
-# M_words = 0
-# 
-# logp_sum = 0
-# for text in texts:
-# 	text += EOT
-# 	logp_sum_per_text = 0
-# 	history = [START, START]
-# 	for c in text:
-# 		M_words += 1
-# 		logp = compute_cond_logp(history, c)
-# 		logp_sum_per_text += logp
-# 		append_to_history_clear_if_stop_symbol(history, c)
-# 	logp_sum += logp_sum_per_text
-# perplexity = math.pow(2, -1.0 * logp_sum / M_words)
-# print 'perplexity = %f' % perplexity
-# 
+if True:
+    holdout_texts = sys.stdin.read()
+    texts = holdout_texts.split(EOT)
+    print "%d holdout texts" % len(texts)
+
+    M_words = 0
+    logp_sum = 0
+    for text in texts:
+            text += EOT
+            history = [START, START]
+            for c in text:
+                    c = convert_to_UNK(c)
+                    M_words += 1
+                    logp = compute_cond_logp(history, c)
+                    logp_sum += logp
+                    append_to_history_clear_if_stop_symbol(history, c)
+    perplexity = math.pow(2, -1.0 * logp_sum / M_words)
+    print 'perplexity = %f' % perplexity
+    exit(0)
+
 ##################################
 
 # user interaction
