@@ -10,9 +10,10 @@ import cPickle as pickle
 filename = sys.argv[1]
 outdir = sys.argv[2]
 
-unigramName = os.path.join(outdir, filename + '.unigram')
-bigramName = os.path.join(outdir, filename + '.bigram')
-trigramName = os.path.join(outdir, filename + '.trigram')
+basename = os.path.basename(filename)
+unigramName = os.path.join(outdir, basename + '.unigram')
+bigramName = os.path.join(outdir, basename + '.bigram')
+trigramName = os.path.join(outdir, basename + '.trigram')
 
 print unigramName
 print bigramName
