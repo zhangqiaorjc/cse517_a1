@@ -16,6 +16,5 @@ sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 for root, dirs, files in os.walk(sys.argv[1]):
     for fname in files:
 	f = os.path.join(root, fname)
-	print f
 	raw_text = codecs.open(f, encoding='utf-8', mode='r').read()
 	sys.stdout.write(raw_text + EOT)

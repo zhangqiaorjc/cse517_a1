@@ -155,10 +155,11 @@ if True:
             text += EOT
             history = [START, START]
             for c in text:
-                    c = convert_to_UNK(c)
-                    M_words += 1
-                    logp = compute_cond_logp(history, c)
-                    logp_sum += logp
+                    if c != EOT and (START not in history):
+                    	c = convert_to_UNK(c)
+                    	M_words += 1
+                    	logp = compute_cond_logp(history, c)
+                    	logp_sum += logp
                     append_to_history_clear_if_stop_symbol(history, c)
     perplexity = math.pow(2, -1.0 * logp_sum / M_words)
     print 'perplexity = %f' % perplexity
