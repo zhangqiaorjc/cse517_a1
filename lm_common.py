@@ -13,6 +13,7 @@ UNK = u'\u0859'
 smooth_k1 = 0.0000001
 smooth_k2 = 0.0000001
 smooth_k3 = 0.0000001
+smooth_k4 = 0.0000001
 vocab_size = 65392
 
 def convert_to_UNK(snippet):
@@ -27,9 +28,10 @@ def convert_to_UNK(snippet):
 	return converted_snippet
 
 # interpolation parameters
-l31 = 0.001
-l32 = 0.01
-l33 = 1.0 - l31 - l32
+l41 = 0.001
+l42 = 0.01
+l43 = 0.1
+l44 = 1.0 - l41 - l42 - l43
 
 # use log base 2 throughout
 def log(x):
