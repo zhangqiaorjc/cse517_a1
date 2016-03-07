@@ -23,8 +23,11 @@ leaderboard ranking, we should focus on getting a model working and working
 well, so we resorted to improving ngrams -- less intellectual value but a
 more direct route to improving leaderboard ranking.
 
-2) Kneser-Ney smoothing.
-Fill in by Danyang Zhuo.
+2) Implement Kneser-Ney smoothing.
+In our submission, we use simple additive-k smoothing to handle characters or histories that are not seen in our training set. In our previous submissions, we realize better smoothing techniques can help us get better results in languages that have large size of vocabulary. Kneser-Ney is the most effective smoothing techniques in ngram models. The intuition is the following: if 'h' is always following 't', we want to lower the probability of 'h' in the unigram models when we are doing interpolation. Formally, we want the conditional probability to be (assuming a is followed by b),
+P(b|a) = max(count(ab) - delta)/count(a) + lambda * |{c| count(cb)>0}|/|{d | count(de) > 0}|.
+Lambda is properly set so that the total probabilities sum to 1.
+This is the model of bigram Kneser-Ney smoothing and the model for trigram is one order of magnitude more complex. The main bottleneck is that it is computationally too intensive to calculate a term like |{c| count(cb)>0}| for every possible b in our model. We use simple python dictionaries to store our bigram and trigram counts. Without proper indexing, it will take O(Vocabulary^2) of time to calculate |{c| count(cb)>0}|. For trigram, it will take O(Vocabulary^3). With limited time to work on this project, we only implemented the bigram version of Kneser-Ney smoothing but we cannot scale it to trigram. Finally, we decided not to pursue this direction.
 
 == Answers to Project Questions
 1) How does our language model (LM) work?
@@ -54,14 +57,18 @@ Now, We can use the chain rule to compute P(c1c2...cN) for any sentence.
 We used Wikipedia dump for the month of January, for all available languages.
 http://dumps.wikimedia.org/backup-index-bydb.html
 
-We also obtained data for Twitter, Blogs, Newswire.
-Fill in by Haichen.
+We also obtained data for Twitter, Blogs, Newswire from Helio corpora data set
+(http://www.corpora.heliohost.org/download.html). We downloaded the data for
+all 68 different languages.
+
+To improve the performance for Englihs, we crawled the news articles from New
+York Times (http://www.nytimes.com) since May 2013.
 
 In each dataset, we also artifically add two start symbols to the beginning of
 text and one end of text symbol at the end.
 
 Finally, our LM, on startup, would load up the python dictionary blob, add two
-start symbols to history. With ngram counts and the various parameters, our LM 
+start symbols to history. With ngram counts and the various parameters, our LM
 is ready for use!
 
 3) What tools did we use?
@@ -75,9 +82,3 @@ None.
 Q: Show that P(c|natural) is monotonic in p(natural|c), under reasonable
 assumptions.
 A: Check out cse517_project.pdf.
-
-
-
-
-
-
