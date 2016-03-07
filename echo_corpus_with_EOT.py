@@ -17,4 +17,4 @@ for root, dirs, files in os.walk(sys.argv[1]):
     for fname in files:
 	f = os.path.join(root, fname)
 	raw_text = codecs.open(f, encoding='utf-8', mode='r').read()
-	sys.stdout.write(raw_text + EOT)
+	sys.stdout.write(raw_text)

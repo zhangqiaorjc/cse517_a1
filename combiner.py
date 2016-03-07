@@ -12,6 +12,10 @@ unigramCounts = {}
 bigramCounts = {}
 trigramCounts = {}
 
+unigramName = 'all.unigram'
+bigramName = 'all.bigram'
+trigramName = 'all.trigram'
+
 print 'combine unigrams'
 for f in glob.glob(os.path.join(indir, '*.unigram')):
 	ngram = pickle.load(open(f, 'rb'))
@@ -19,6 +23,10 @@ for f in glob.glob(os.path.join(indir, '*.unigram')):
 	    if k not in unigramCounts:
 		unigramCounts[k] = 0
 	    unigramCounts[k] += ngram[k]
+
+print "save to " + unigramName
+pickle.dump(unigramCounts, open(unigramName, "wb"))
+del unigramCounts
 
 print 'combine bigrams'
 for f in glob.glob(os.path.join(indir, '*.bigram')):
@@ -28,6 +36,10 @@ for f in glob.glob(os.path.join(indir, '*.bigram')):
 		bigramCounts[k] = 0
 	    bigramCounts[k] += ngram[k]
 
+print "save to " + bigramName
+pickle.dump(bigramCounts, open(bigramName, "wb"))
+del bigramCounts
+
 print 'combine trigrams'
 for f in glob.glob(os.path.join(indir, '*.trigram')):
 	ngram = pickle.load(open(f, 'rb'))
@@ -35,16 +47,6 @@ for f in glob.glob(os.path.join(indir, '*.trigram')):
 	    if k not in trigramCounts:
 		trigramCounts[k] = 0
 	    trigramCounts[k] += ngram[k]
-
-unigramName = 'all.unigram'
-bigramName = 'all.bigram'
-trigramName = 'all.trigram'
-
-print "save to " + unigramName
-pickle.dump(unigramCounts, open(unigramName, "wb"))
-
-print "save to " + bigramName
-pickle.dump(bigramCounts, open(bigramName, "wb"))
 
 print "save to " + trigramName
 pickle.dump(trigramCounts, open(trigramName, "wb"))
