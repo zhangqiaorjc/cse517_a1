@@ -57,8 +57,12 @@ Now, We can use the chain rule to compute P(c1c2...cN) for any sentence.
 We used Wikipedia dump for the month of January, for all available languages.
 http://dumps.wikimedia.org/backup-index-bydb.html
 
-We also obtained data for Twitter, Blogs, Newswire.
-Fill in by Haichen.
+We also obtained data for Twitter, Blogs, Newswire from Helio corpora data set
+(http://www.corpora.heliohost.org/download.html). We downloaded the data for
+all 68 different languages.
+
+To improve the performance for Englihs, we crawled the news articles from New
+York Times (http://www.nytimes.com) since May 2013.
 
 In each dataset, we also artifically add two start symbols to the beginning of
 text and one end of text symbol at the end.
