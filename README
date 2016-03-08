@@ -24,10 +24,25 @@ well, so we resorted to improving ngrams -- less intellectual value but a
 more direct route to improving leaderboard ranking.
 
 2) Implement Kneser-Ney smoothing.
-In our submission, we use simple additive-k smoothing to handle characters or histories that are not seen in our training set. In our previous submissions, we realize better smoothing techniques can help us get better results in languages that have large size of vocabulary. Kneser-Ney is the most effective smoothing techniques in ngram models. The intuition is the following: if 'h' is always following 't', we want to lower the probability of 'h' in the unigram models when we are doing interpolation. Formally, we want the conditional probability to be (assuming a is followed by b),
-P(b|a) = max(count(ab) - delta)/count(a) + lambda * |{c| count(cb)>0}|/|{d | count(de) > 0}|.
+In our submission, we use simple additive-k smoothing to handle characters or
+histories that are not seen in our training set. In our previous submissions,
+we realize that better smoothing techniques can help us get better results in
+languages that have large vocabulary size. This motivated to try better smoothing
+techniques. Kneser-Ney is the most effective smoothing techniques in ngram models.
+The intuition is the following: if 'h' always follows 't', we want to lower the
+probability of 'h' in the unigram models when we are doing interpolation.
+Formally, we want the conditional probability to be (assuming a is followed by b),
+P(b|a) = max(count(ab) - delta, 0)/count(a) + lambda * |{c| count(cb)>0}|/|{d | count(de) > 0}|.
 Lambda is properly set so that the total probabilities sum to 1.
-This is the model of bigram Kneser-Ney smoothing and the model for trigram is one order of magnitude more complex. The main bottleneck is that it is computationally too intensive to calculate a term like |{c| count(cb)>0}| for every possible b in our model. We use simple python dictionaries to store our bigram and trigram counts. Without proper indexing, it will take O(Vocabulary^2) of time to calculate |{c| count(cb)>0}|. For trigram, it will take O(Vocabulary^3). With limited time to work on this project, we only implemented the bigram version of Kneser-Ney smoothing but we cannot scale it to trigram. Finally, we decided not to pursue this direction.
+This is the model of bigram Kneser-Ney smoothing and the model for trigram is an order of
+magnitude more complex. The main bottleneck is that it is computationally too intensive to
+calculate a term like |{c| count(cb)>0}| for every possible b in our model.
+We use simple python dictionaries to store our bigram and trigram counts.
+Without proper indexing, it will take O(Vocabulary^2) of time to calculate
+|{c| count(cb)>0}|. For trigram, it will take O(Vocabulary^3).
+With limited time to work on this project, we only implemented the bigram version
+of Kneser-Ney smoothing but we cannot scale it to trigram. Finally, we decided not
+to pursue this direction.
 
 == Answers to Project Questions
 1) How does our language model (LM) work?
